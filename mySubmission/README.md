@@ -39,7 +39,7 @@ The script then merges training and test data to create combined data sets for s
 
 To create the final one data set, it binds the activity labels data and participants data as columns to sensor observations data. The data set variables are then appropriately labeled with descriptive variable names.
 
-Finally it creates a second, independent tidy data set with the average of each variable for each activity and each participant. It can be viewed as "Tidy Sensor Data" with 81 columns and 180 rows.
+Finally it creates a second, independent tidy data set with the average of each variable for each activity and each participant. The data is written to file "tidySensorData.txt" as an output.
 
 
 Notes: 
