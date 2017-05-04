@@ -118,4 +118,4 @@ colnames(finalSensorData) <-
 finalSensorData %>%
   group_by(activityName, participantId) %>%
   summarise_each(funs = funs(mean)) %>%
-  View("Tidy Sensor Data")
+  write.table("tidySensorData.txt", row.name = FALSE)
